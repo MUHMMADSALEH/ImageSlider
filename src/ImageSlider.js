@@ -1,5 +1,6 @@
 import React, { useEffect, useState, useCallback } from "react";
-
+import data from "./data";
+import "./style.css";
 const ImageSlider = () => {
     const [activeImageIndex, setActiveImage] = useState(0);
 
